@@ -1,0 +1,66 @@
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.logo {
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  list-style: none;
+}
+
+.nav-links li {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-links .active {
+  background-color: #ff6b61;
+  color: white;
+  padding: 18px 35px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon1,
+.icon2{
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.login-btn{
+    padding: 8px 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover{
+    background-color: #444;
+}
